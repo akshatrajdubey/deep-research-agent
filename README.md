@@ -6,8 +6,8 @@
 
 ## 🎬 Video Demo
 
-*(Add Loom/YouTube link after recording)*
-
+Link 1 : https://youtu.be/7kMaSq9C_Jc
+Link 2 : https://youtu.be/7kMaSq9C_Jc
 ---
 
 ## 🚀 Setup & Run
@@ -25,12 +25,12 @@ pip install -r requirements.txt
 ```bash
 cp .env.example .env
 # Edit .env and add:
-# ANTHROPIC_API_KEY=sk-ant-...
+# GROQ_API_KEY=sk-ant-...
 # TAVILY_API_KEY=tvly-...
 ```
 
 Get API keys:
-- **Anthropic**: https://console.anthropic.com
+- **Groq**: https://console.groq.com
 - **Tavily** (free tier available): https://tavily.com
 
 ### 3. Run the Streamlit app
