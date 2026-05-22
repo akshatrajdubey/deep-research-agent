@@ -1,0 +1,183 @@
+{
+  "timestamp": "2026-05-22T17:34:26.535831+00:00",
+  "total_cases": 8,
+  "overall_composite": 0.538,
+  "by_type": {
+    "factual": 0.55,
+    "multi_hop": 0.55,
+    "comparison": 0.55,
+    "insufficient_evidence": 0.6,
+    "conflicting_sources": 0.4,
+    "recent_events": 0.55,
+    "multi_turn": 0.55
+  },
+  "metric_averages": {
+    "citation_rate": 0.0,
+    "source_grounding": 1.0,
+    "conflict_detection": 0.875,
+    "uncertainty_flagging": 0.875,
+    "answer_relevance": 0.125
+  },
+  "cases": [
+    {
+      "id": "factual_1",
+      "type": "factual",
+      "query": "What is the current interest rate set by the Federal Reserve?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.55
+    },
+    {
+      "id": "factual_2",
+      "type": "factual",
+      "query": "What programming language was Python named after?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.55
+    },
+    {
+      "id": "multihop_1",
+      "type": "multi_hop",
+      "query": "Who is the CEO of the company that makes the M1 chip, and what university did they attend?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.55
+    },
+    {
+      "id": "comparison_1",
+      "type": "comparison",
+      "query": "What are the main differences between Python and JavaScript for backend development?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.55
+    },
+    {
+      "id": "low_evidence_1",
+      "type": "insufficient_evidence",
+      "query": "What will the exact stock price of Apple be on January 1st 2030?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 0.0,
+        "answer_relevance": 1.0
+      },
+      "composite_score": 0.6
+    },
+    {
+      "id": "conflict_1",
+      "type": "conflicting_sources",
+      "query": "Is coffee good or bad for health?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 0.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.4
+    },
+    {
+      "id": "recent_1",
+      "type": "recent_events",
+      "query": "What are the latest developments in large language model research in 2025?",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.55
+    },
+    {
+      "id": "multiturn_1",
+      "type": "multi_turn",
+      "query": "Tell me about the history of the internet",
+      "answer_preview": "",
+      "fetched_urls": [],
+      "stages_seen": [
+        "planning",
+        "error"
+      ],
+      "elapsed_seconds": 0.0,
+      "metrics": {
+        "citation_rate": 0.0,
+        "source_grounding": 1.0,
+        "conflict_detection": 1.0,
+        "uncertainty_flagging": 1.0,
+        "answer_relevance": 0.0
+      },
+      "composite_score": 0.55
+    }
+  ]
+}
